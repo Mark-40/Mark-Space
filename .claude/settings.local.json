@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget --version 2>/dev/null || echo \"winget not found\")",
+      "Bash(choco --version 2>/dev/null || echo \"choco not found\")",
+      "Bash(winget install:*)",
+      "Bash(where python*)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/MarkManzanilla/AppData/Local/Programs/**)",
+      "Bash(cmd /c \"node -e \\\\\"const fs=require\\('fs'\\);const c=fs.readFileSync\\('C:/Users/MarkManzanilla/Documents/Personal_Hub/chcepe.github.io/public/chcepe-cv.pdf','latin1'\\);const b=c.match\\(/\\\\\\\\\\\\\\(\\([^\\\\\\\\\\\\\\(\\\\\\\\\\\\\\)]{3,100}\\)\\\\\\\\\\\\\\)/g\\)||[];const r=b.map\\(x=>x.slice\\(1,-1\\).trim\\(\\)\\).filter\\(x=>/^[\\\\x20-\\\\x7E]+\\\\$/.test\\(x\\)&&x.length>3\\);console.log\\([...new Set\\(r\\)].join\\('\\\\n'\\)\\);\\\\\"\" 2>&1 | head -200)",
+      "Bash(cmd /c \"nvm use 16 && node --version\" 2>&1)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/MarkManzanilla/Documents/Personal_Hub/chcepe.github.io/public/images/**)",
+      "Bash(done)",
+      "Bash(cmd /c \"for %d in \\(convaplan powerpoint-addin pruforce pruone pulse ticketing-system wellevate-console\\) do \\(echo === %d === && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\%d\\)\")",
+      "Bash(cmd /c \"dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\convaplan && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\powerpoint-addin && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\pruone && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\pruforce && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\pulse && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\ticketing-system && dir /b C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\wellevate-console\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\MarkManzanilla\\\\Documents\\\\Personal_Hub\\\\chcepe.github.io\\\\public\\\\images\\\\projects\\\\convaplan\")"
+    ]
+  }
+}
